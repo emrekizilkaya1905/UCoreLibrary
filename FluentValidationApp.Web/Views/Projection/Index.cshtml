@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model EventDateDto
+<form asp-action="Index" method="post">
+    <input asp-for="Day"/>
+      <input asp-for="Month"/>
+    <input asp-for="Year" />
+    <button type="submit"class="btn btn-primary"> Kaydet</button>
+</form>
+<h1>@ViewBag.date</h1>

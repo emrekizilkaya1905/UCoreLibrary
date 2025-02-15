@@ -2,6 +2,6 @@
 {
 	public class EventDate
 	{
-		public DateTime? Date { get; set; }
+		public DateTime Date { get; set; }
 	}
 }
